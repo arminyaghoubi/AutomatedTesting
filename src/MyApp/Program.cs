@@ -26,7 +26,9 @@ public class Program
 
         app.MapControllers();
 
+        //Minimal Api
+        app.MapGet("/", () => "ArminYaghoubi1@gmail.com");
+
         app.Run();
     }
-
 }
